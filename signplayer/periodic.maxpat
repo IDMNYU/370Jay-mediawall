@@ -40,6 +40,41 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Gill Sans",
+					"fontsize" : 48.0,
+					"id" : "obj-23",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 886.400013208389282, 55.200000822544098, 470.0, 62.0 ],
+					"text" : "370Jay Wall"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 452.0, 319.200004756450653, 252.000003755092621, 20.0 ],
+					"text" : "this is the external video source"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 886.400013208389282, 125.600001871585846, 366.400005459785461, 20.0 ],
+					"text" : "joshua goldberg 2024 for NYU and Frank Lantz"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -72,7 +107,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 737.0, 441.0, 255.0, 22.0 ]
+					"patching_rect" : [ 906.400013506412506, 458.400006830692291, 255.0, 22.0 ]
 				}
 
 			}
@@ -85,18 +120,19 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 745.0, 490.0, 255.0, 22.0 ]
+					"patching_rect" : [ 914.400013625621796, 507.200007557868958, 255.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-4",
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 495.200007379055023, 560.000008344650269, 904.0, 22.0 ],
+					"patching_rect" : [ 880.80001312494278, 594.400008857250214, 248.800003707408905, 62.0 ],
 					"text" : "jit.gl.layer external @scale 0.940625 0.859 1. @blend_enable 1 @depth_enable 0 @preserve_aspect 1 @transform_reset 5 @drawto external @position -0.13 0.193 0."
 				}
 
@@ -180,7 +216,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 808.0, 340.0, 90.0, 22.0 ],
+					"patching_rect" : [ 948.000014126300812, 354.400005280971527, 90.0, 22.0 ],
 					"text" : "loadmess open"
 				}
 
@@ -219,7 +255,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 759.0, 336.0, 35.0, 22.0 ],
+					"patching_rect" : [ 899.200013399124146, 350.400005221366882, 35.0, 22.0 ],
 					"text" : "open"
 				}
 
@@ -397,7 +433,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 702.0, 398.0, 242.0, 22.0 ],
+					"patching_rect" : [ 872.000012993812561, 415.200006186962128, 242.0, 22.0 ],
 					"text" : "jit.grab @output_texture 1 @dim 3840 2160"
 				}
 
@@ -431,7 +467,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 118.0, 155.0, 50.0, 22.0 ],
+					"patching_rect" : [ 241.600003600120544, 147.200002193450928, 50.0, 22.0 ],
 					"text" : "s timing"
 				}
 
