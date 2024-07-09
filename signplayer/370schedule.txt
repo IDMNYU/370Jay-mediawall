@@ -1,0 +1,20 @@
+// begin here
+// this is the scheduling system 0.1a for the 370 Jay Wall
+//
+// please use // at start of line for a comment
+//
+// all media needs to be in the ~/Playlist/ folder
+//
+// this next section is the playlist section.
+// everything in this list is played in a loop unless there is a scheduled interrupt
+//
+PLAYLIST
+file1.mov
+file2.mov
+file3.mov
+//
+// periodic table animation runs between every playlist entry
+// for 30 sec
+// this is probably the place to put code which adjusts that
+//
+// interrupsts will be handled later from this file
