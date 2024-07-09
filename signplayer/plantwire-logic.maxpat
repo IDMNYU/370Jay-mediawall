@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -571,8 +571,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 515.0, 100.0, 63.0, 22.0 ],
-					"text" : "metro 100"
+					"patching_rect" : [ 515.0, 100.0, 69.0, 22.0 ],
+					"text" : "metro 5000"
 				}
 
 			}

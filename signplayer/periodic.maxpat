@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1920.0, -1213.0, 1185.0, 959.0 ],
+		"rect" : [ 34.0, 87.0, 1852.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -515,7 +515,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-56", 2 ],
+					"destination" : [ "obj-56", 3 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -571,7 +571,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-56", 3 ],
+					"destination" : [ "obj-56", 2 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -737,28 +737,28 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "elementpoly.maxpat",
-				"bootpath" : "~/Library/Mobile Documents/com~apple~CloudDocs/teaching/370Jay-mediawall/signplayer",
+				"bootpath" : "~/Documents/GitHub/370Jay-mediawall/signplayer",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "plantwire-logic.maxpat",
-				"bootpath" : "~/Library/Mobile Documents/com~apple~CloudDocs/teaching/370Jay-mediawall/signplayer",
+				"bootpath" : "~/Documents/GitHub/370Jay-mediawall/signplayer",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tilepositions.txt",
-				"bootpath" : "~/Library/Mobile Documents/com~apple~CloudDocs/teaching/370Jay-mediawall/signplayer",
+				"bootpath" : "~/Documents/GitHub/370Jay-mediawall/signplayer",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wireplantpoly.maxpat",
-				"bootpath" : "~/Library/Mobile Documents/com~apple~CloudDocs/teaching/370Jay-mediawall/signplayer",
+				"bootpath" : "~/Documents/GitHub/370Jay-mediawall/signplayer",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
