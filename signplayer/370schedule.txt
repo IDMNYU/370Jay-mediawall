@@ -9,12 +9,9 @@
 // everything in this list is played in a loop unless there is a scheduled interrupt
 //
 PLAYLIST
-file1.mov
-file2.mov
-file3.mov
+maxcode periodic
+image armon.png
+maxcode plantwires
+image tku.png
 //
-// periodic table animation runs between every playlist entry
-// for 30 sec
-// this is probably the place to put code which adjusts that
-//
-// interrupsts will be handled later from this file
+END
