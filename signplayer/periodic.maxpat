@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 690.0, 221.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-69",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -82,7 +94,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
 					"patching_rect" : [ 556.000008285045624, 183.200002729892731, 79.0, 22.0 ],
-					"text" : "counter 0 1 4"
+					"text" : "counter 0 0 2"
 				}
 
 			}
@@ -166,7 +178,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 892.800013303756714, 359.200005352497101, 48.0, 22.0 ],
+					"patching_rect" : [ 700.0, 341.600005090236664, 48.0, 22.0 ],
 					"text" : "r timing"
 				}
 
@@ -178,7 +190,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.000001668930054, 574.40000855922699, 344.80000513792038, 22.0 ],
+					"patching_rect" : [ 112.000001668930054, 574.40000855922699, 725.0, 22.0 ],
 					"text" : "switch 4"
 				}
 
@@ -219,18 +231,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-42",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 800.800011932849884, 364.000005424022675, 66.0, 22.0 ],
-					"text" : "read, bang"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -244,12 +244,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-38",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 659.200009822845459, 364.000005424022675, 66.0, 22.0 ],
-					"text" : "read, bang"
+					"patching_rect" : [ 666.0, 263.0, 317.0, 49.0 ],
+					"text" : "read \"Macintosh HD:/Users/nyu/Documents/GitHub/370Jay-mediawall/grax/Events/halloween-ad-oct-31.png\""
 				}
 
 			}
@@ -383,7 +384,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 549.0, 146.200002193450928, 133.0, 22.0 ],
-					"text" : "metro 30000 @active 0"
+					"text" : "metro 30000 @active 1"
 				}
 
 			}
@@ -515,7 +516,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-56", 3 ],
+					"destination" : [ "obj-56", 2 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -538,6 +539,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -571,7 +579,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-56", 2 ],
+					"destination" : [ "obj-56", 3 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -579,6 +587,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
+					"order" : 1,
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -586,7 +595,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
-					"source" : [ "obj-42", 0 ]
+					"order" : 0,
+					"source" : [ "obj-38", 0 ]
 				}
 
 			}
